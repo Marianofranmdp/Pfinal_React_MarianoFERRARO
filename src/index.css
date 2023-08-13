@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.iconMenu{
+  width: 70px;
+}
+
+.imagenes{
+  width: 100%;
+  margin: auto;
+}
+
+.img_details{
+  width: 85%;
+  margin: auto;
+  border-radius: 5%;
+}
+.cardDetails {
+  height: 400px;
+}
+
+.colorLetra {
+  font-size: 1.2rem;
+  color:black;
+}
+
+::-webkit-scrollbar{
+ width: 10px;
+}
+::-webkit-scrollbar-track{
+  background: #00cc99;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb{
+  background: #6600ff;
+  border-radius: 50px;
+}
+.menuwidth{
+  width: 100%;
+}
+.gifcarga{
+  width:50%;
+}
+.a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+.margin{
+  margin-left: 83%;
+  margin-bottom: 37px;
+  width: 13%;
+}
+
+.unitPrice{
+  margin-left: 20px;
+  padding-left: 5%;
+}
+
+.delete{
+  width: 5%;
+  height: 5%;
+}
+.ub{
+  margin: 25px;
+}

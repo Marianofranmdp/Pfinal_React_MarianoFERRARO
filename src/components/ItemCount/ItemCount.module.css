@@ -1,0 +1,39 @@
+.container {
+    text-align: center;
+    /* border: .2rem solid gray; */
+}
+.counter {
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.controls {
+    /* border: .1rem solid gray; */
+    color: rgb(56, 0, 0);
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.designe_btn {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: .1rem solid;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: rgb(28, 31, 35);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
