@@ -13,5 +13,4 @@ Boostrap
 TailWindCss 
 Material UI <
 
-### Link al deploy 🔌
-https://onl1g4mes.netlify.app/
+
