@@ -1,14 +1,14 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore"
+import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: "onlygames-985b0.firebaseapp.com",
-  projectId: "onlygames-985b0",
-  storageBucket: "onlygames-985b0.appspot.com",
-  messagingSenderId: "918340015922",
-  appId: "1:918340015922:web:a0ea51c30d7a3e9c28e92b"
+  apiKey: "AIzaSyDmfZRLuzy1jqmtllxNAdLl2F8O_aaEsU8",
+  authDomain: "onlygames-f5fa0.firebaseapp.com",
+  projectId: "onlygames-f5fa0",
+  storageBucket: "onlygames-f5fa0.appspot.com",
+  messagingSenderId: "898356916630",
+  appId: "1:898356916630:web:072bb64bbb4d215800edb7"
 };
 // export const firestoreFetchOne = async (idItem) =>{
 //   const docRef = doc(db,"juegos", idItem);

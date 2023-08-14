@@ -14,7 +14,7 @@ const ItemListContainer = () => {
          // function Fecth para setear los datos de la consulta
          firestoreFetch()
               .then(consulta => setItems(consulta))
-              .then(() => setLoading(false))
+              .then(() => setLoading(true))
               .catch(error => console.log('Hubo un error en la consulta a la DB',error));
     } else {
          // function Fecth con parámetros para filtrar (campo y valor)
